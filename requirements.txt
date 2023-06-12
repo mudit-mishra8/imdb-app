@@ -1,0 +1,8 @@
+pandas
+numpy
+ipywidgets
+tqdm
+scikit-learn
+keras
+gensim
+voila
