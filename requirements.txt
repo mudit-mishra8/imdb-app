@@ -1,0 +1,12 @@
+flask
+gunicorn
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
+numpy
+scipy
+scikit-learn
+pandas
+gensim
+tensorflow-cpu
