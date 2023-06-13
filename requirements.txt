@@ -1,4 +1,4 @@
-    python==3.8.5
+ 
     flask==1.1.2
     gunicorn
     itsdangerous==1.1.0
