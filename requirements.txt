@@ -10,4 +10,5 @@
     pandas
     keras
     gensim
-    tensorflow
+    tensorflow-cpu==2.6.0
+
