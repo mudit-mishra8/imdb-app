@@ -17,6 +17,7 @@
             height: 100vh;
             justify-content: center;
             align-items: center;
+            position: relative;
         }
 
         .left-section {
@@ -26,8 +27,6 @@
             justify-content: space-between;
             align-items: flex-start;
             padding: 20px;
-            background: url('left-image.gif') no-repeat center center;
-            background-size: cover;
         }
 
         .right-section {
@@ -36,8 +35,6 @@
             justify-content: center;
             align-items: center;
             padding: 20px;
-            background: url('right-image.gif') no-repeat center center;
-            background-size: cover;
         }
 
         .middle-section {
@@ -56,10 +53,11 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
             color: #fff;
+            position: relative;
         }
 
         h1 {
-            font-size: 40px;
+            font-size: 48px;
             margin-bottom: 30px;
         }
 
@@ -93,6 +91,18 @@
             font-weight: bold;
             margin-top: 20px;
         }
+
+        .created-by {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 10px;
+            font-weight: bold;
+            color: white;
+            background-color: black;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
     </style>
 </head>
 
@@ -112,6 +122,7 @@
                     {{ prediction_text }}
                 </div>
             </div>
+            <div class="created-by">Created By Mudit</div> <!-- Added "Created By Mudit" text -->
         </div>
         <div class="right-section">
             <img src="https://media2.giphy.com/media/XyhGQEOrJ5MZV6oKrX/giphy.gif?cid=ecf05e47fema0q9g0tlrzuc1v59ql4jeoijsjz9dq1qzz0vp&ep=v1_gifs_related&rid=giphy.gif&ct=g" alt="Right Image" style="width: 100%; height: 100%;">
