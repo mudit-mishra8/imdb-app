@@ -1,16 +1,12 @@
-Flask
-gunicorn
-itsdangerous
-Jinja2
-MarkupSafe
-Werkzeug
-numpy
-scipy
-scikit-learn
-pandas
-pickle
-keras
-json
-gensim
-Word2Vec
-load_model
+    Flask
+    gunicorn
+    itsdangerous
+    Jinja2
+    MarkupSafe
+    Werkzeug
+    numpy
+    scipy
+    scikit-learn
+    pandas
+    keras
+    gensim
