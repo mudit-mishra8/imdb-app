@@ -20,7 +20,7 @@ from gensim.models import KeyedVectors
 app = Flask(__name__)
 
 # Load the model
-LSTM_model = load_model('my_model.h5')
+LSTM_model = load_model('my_model_new.h5')
 word_vectors = KeyedVectors.load("word_vectors.kv")
 
 with open('tokenizer.json') as f:
